@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.commit451.lalilulelo",
+    "sha256_cert_fingerprints": ["82:C1:30:2B:71:99:0F:64:FA:64:52:9D:03:39:E0:30:A6:C5:21:60:EE:D9:6A:8D:D6:F8:1E:8A:7C:A3:DF:97"]
+  }
+}]
