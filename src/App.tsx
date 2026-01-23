@@ -14,8 +14,11 @@ function App() {
           <Route path="/terms" element={<Terms />} />
         </Routes>
         <footer className="footer">
-          <Link to="/privacy">Privacy Policy</Link>
-          <Link to="/terms">Terms</Link>
+          <div className="footer-links">
+            <Link to="/privacy">Privacy</Link>
+            <Link to="/terms">Terms</Link>
+          </div>
+          <div className="footer-copyright">© 2025 Commit 451</div>
         </footer>
       </div>
     </BrowserRouter>

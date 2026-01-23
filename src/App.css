@@ -17,6 +17,51 @@
   height: 200px;
 }
 
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app-name {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.app-subtitle {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin: -1rem 0 0 0;
+  opacity: 0.7;
+}
+
+.store-badges {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.store-badge {
+  width: auto;
+  transition: opacity 0.2s ease;
+}
+
+.store-badge:hover {
+  opacity: 0.8;
+}
+
+.play-store-badge {
+  height: 60px;
+}
+
+.app-store-badge {
+  height: 40px;
+}
+
 .page-container {
   flex: 1;
   display: flex;
@@ -43,9 +88,15 @@
 
 .footer {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
   padding: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
 }
 
 .footer a {
@@ -58,11 +109,19 @@
   color: rgba(255, 255, 255, 0.87);
 }
 
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.75rem;
+}
+
 @media (prefers-color-scheme: light) {
   .footer a {
     color: rgba(0, 0, 0, 0.5);
   }
   .footer a:hover {
     color: rgba(0, 0, 0, 0.8);
+  }
+  .footer-copyright {
+    color: rgba(0, 0, 0, 0.4);
   }
 }
