@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+@media (prefers-color-scheme: light) {
+  .footer a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .footer a:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
