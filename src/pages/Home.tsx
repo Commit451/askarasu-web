@@ -9,7 +9,7 @@ function Home() {
         <p className="app-subtitle">Will you answer the caw?</p>
         <div className="store-badges">
           <a
-            href="https://play.google.com/store/apps/details?id=com.example.app"
+            href="https://play.google.com/store/apps/details?id=com.commit451.lalilulelo"
             target="_blank"
             rel="noopener noreferrer"
           >

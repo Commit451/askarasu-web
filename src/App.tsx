@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-do
 import Home from './pages/Home'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
+import Share from './pages/Share'
 import './App.css'
 
 function ScrollToTop() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/share" element={<Share />} />
         </Routes>
         <footer className="footer">
           <div className="footer-links">
