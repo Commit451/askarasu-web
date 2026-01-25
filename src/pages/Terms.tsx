@@ -39,23 +39,23 @@ function Terms() {
       </section>
 
       <section>
-        <h2>4. Credits System</h2>
-        <p>The App operates on a credit-based system:</p>
+        <h2>4. Credits/Coin System</h2>
+        <p>The App operates on a credit-based system, called "coins":</p>
         <ul>
-          <li><strong>Asking a question:</strong> Costs 1 credit</li>
-          <li><strong>Submitting a guess:</strong> Costs 5 credits</li>
+          <li><strong>Asking a question:</strong> Costs 1 coin</li>
+          <li><strong>Submitting a guess:</strong> Costs 5 coins</li>
         </ul>
-        <p>Credits can be obtained through:</p>
+        <p>Coins can be obtained through:</p>
         <ul>
-          <li><strong>In-App Purchases:</strong> Credits can be purchased through the App using payment processing provided by RevenueCat and the respective app store (Google Play or Apple App Store).</li>
-          <li><strong>Watching Advertisements:</strong> Credits can be earned by watching full-screen video advertisements served through Google AdMob.</li>
+          <li><strong>In-App Purchases:</strong> Coins can be purchased through the App using payment processing provided by RevenueCat and the respective app store (Google Play or Apple App Store).</li>
+          <li><strong>Watching Advertisements:</strong> Coins can be earned by watching full-screen video advertisements served through Google AdMob.</li>
         </ul>
       </section>
 
       <section>
         <h2>5. In-App Purchases</h2>
         <p>
-          All in-app purchases are processed through RevenueCat and are subject to the terms and conditions of the respective app store (Google Play Store or Apple App Store). All purchases are final and non-refundable, except as required by applicable law or the policies of the respective app store. Credits have no monetary value and cannot be exchanged for cash.
+          All in-app purchases are processed through RevenueCat and are subject to the terms and conditions of the respective app store (Google Play Store or Apple App Store). All purchases are final and non-refundable, except as required by applicable law or the policies of the respective app store. Coins have no monetary value and cannot be exchanged for cash.
         </p>
       </section>
 
@@ -72,7 +72,7 @@ function Terms() {
           You may delete your account at any time through the Settings menu within the App. Please be aware that:
         </p>
         <ul>
-          <li>Upon account deletion, <strong>you will NOT receive a refund</strong> for any credits you have earned or purchased.</li>
+          <li>Upon account deletion, <strong>you will NOT receive a refund</strong> for any coins you have earned or purchased.</li>
           <li>Messages and questions you have sent to the AI will be retained for analytical and service improvement purposes, but will no longer be associated with your account.</li>
           <li>Your achievements, streaks, and other account-specific data will be permanently deleted.</li>
         </ul>

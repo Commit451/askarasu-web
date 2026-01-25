@@ -43,7 +43,7 @@ function Privacy() {
         <ul>
           <li>Questions you ask the AI</li>
           <li>Guesses you submit</li>
-          <li>Credit balance and transaction history</li>
+          <li>Credit/Coin balance and transaction history</li>
           <li>Achievements earned</li>
           <li>Streak data and puzzle completion history</li>
         </ul>
@@ -76,7 +76,7 @@ function Privacy() {
         <ul>
           <li>Provide and maintain the App</li>
           <li>Process your questions and deliver AI responses</li>
-          <li>Track your credits, achievements, and streaks</li>
+          <li>Track your coins, achievements, and streaks</li>
           <li>Process in-app purchases</li>
           <li>Deliver relevant advertisements</li>
           <li>Analyze usage to improve the App</li>
