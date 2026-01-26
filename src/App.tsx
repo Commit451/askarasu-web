@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import Share from './pages/Share'
+import Support from './pages/Support'
 import './App.css'
 
 function ScrollToTop() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/share" element={<Share />} />
+          <Route path="/support" element={<Support />} />
         </Routes>
         <footer className="footer">
           <div className="footer-links">
