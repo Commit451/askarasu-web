@@ -20,7 +20,7 @@ function Home() {
             />
           </a>
           <a
-            href="https://apps.apple.com/app/example/id123456789"
+            href="https://apps.apple.com/app/id6757810632"
             target="_blank"
             rel="noopener noreferrer"
           >
