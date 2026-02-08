@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.commit451.lalilulelo'
-const APP_STORE_URL = 'https://apps.apple.com/app/askarasu/id123456789'
+const APP_STORE_URL = 'https://apps.apple.com/app/askarasu/id6757810632'
 
 function Share() {
   const navigate = useNavigate()
