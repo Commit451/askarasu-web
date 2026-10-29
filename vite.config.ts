@@ -1,15 +1,22 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
-import { writeFileSync, readFileSync } from 'fs'
+import { mkdirSync, writeFileSync, readFileSync } from 'fs'
 
-// Plugin to copy index.html to 404.html for GitHub Pages SPA routing
+// GitHub Pages returns 404 for client-side routes unless they have a real entrypoint.
+// Keep the SPA fallback, but serve known public pages with HTTP 200 for store reviews.
+const staticRoutes = ['privacy', 'terms', 'share', 'support']
 const copy404Plugin = () => ({
-  name: 'copy-404',
+  name: 'copy-static-route-entrypoints',
   closeBundle() {
-    const indexPath = resolve(__dirname, 'dist/index.html')
-    const notFoundPath = resolve(__dirname, 'dist/404.html')
-    writeFileSync(notFoundPath, readFileSync(indexPath))
+    const outputDir = resolve(__dirname, 'dist')
+    const html = readFileSync(resolve(outputDir, 'index.html'))
+    writeFileSync(resolve(outputDir, '404.html'), html)
+    for (const route of staticRoutes) {
+      const routeDir = resolve(outputDir, route)
+      mkdirSync(routeDir, { recursive: true })
+      writeFileSync(resolve(routeDir, 'index.html'), html)
+    }
   }
 })
 
